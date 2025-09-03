@@ -1,0 +1,57 @@
+.customHeader{
+    background: linear-gradient(90deg, #030d5d, #3e78ec);
+    
+}
+
+.headerLogo{
+    width: 130px;
+    margin-top: -5px;
+}
+
+.Welcome{
+    font-weight: 900;
+    font-family: 'Algerian';
+    background: linear-gradient(90deg,#ebfa14,#b2e518);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+   
+}   
+
+
+.custom-toggler{
+      border: 2px solid;
+      background-color: #fafafa;
+
+}
+
+.main-nav a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: gray;
+  transition: .2s
+}
+
+.main-nav a:hover {
+  background:#8eaeefba;
+  color: var(--brand)
+}
+
+.video-container {
+    margin-top: 70px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
